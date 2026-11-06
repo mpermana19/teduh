@@ -1,7 +1,7 @@
 import type { Message } from "./storage";
 
-const GEMINI_KEY = import.meta.env.VITE_GEMINI_API_KEY as string | undefined;
-const GROQ_KEY = import.meta.env.VITE_GROQ_API_KEY as string | undefined;
+const GEMINI_KEY = import.meta.env.GEMINI_API_KEY as string | undefined;
+const GROQ_KEY = import.meta.env.GROQ_API_KEY as string | undefined;
 
 const GEMINI_URL =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
